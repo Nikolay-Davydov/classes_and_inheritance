@@ -1,9 +1,9 @@
 import Magician from '../magicain';
 
 test('get object Magician', () => {
-  const description = new Magician('Magician');
+  const description = new Magician('Man', 'Magician');
   const result = {
-    name: 'Magician',
+    name: 'Man',
     type: 'Magician',
     health: 100,
     level: 1,

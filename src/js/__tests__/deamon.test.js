@@ -1,10 +1,10 @@
-import Daemon from '../deamon';
+import Daemon from '../daemon';
 
-test('get object Deamon', () => {
-  const description = new Daemon('Deamon');
+test('get object Daemon', () => {
+  const description = new Daemon('Man', 'Daemon');
   const result = {
-    name: 'Deamon',
-    type: 'Deamon',
+    name: 'Man',
+    type: 'Daemon',
     health: 100,
     level: 1,
     attack: 10,

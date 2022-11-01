@@ -1,9 +1,9 @@
 import Zombie from '../zombie';
 
 test('get object Zombie', () => {
-  const description = new Zombie('Zombie');
+  const description = new Zombie('Man', 'Zombie');
   const result = {
-    name: 'Zombie',
+    name: 'Man',
     type: 'Zombie',
     health: 100,
     level: 1,

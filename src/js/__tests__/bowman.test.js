@@ -1,9 +1,9 @@
 import Bowman from '../bowman';
 
 test('get object Bowman', () => {
-  const description = new Bowman('Bowman');
+  const description = new Bowman('Man', 'Bowman');
   const result = {
-    name: 'Bowman',
+    name: 'Man',
     type: 'Bowman',
     health: 100,
     level: 1,

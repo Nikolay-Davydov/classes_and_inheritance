@@ -1,9 +1,9 @@
 import Undead from '../undead';
 
 test('get object Undead', () => {
-  const description = new Undead('Undead');
+  const description = new Undead('Man', 'Undead');
   const result = {
-    name: 'Undead',
+    name: 'Man',
     type: 'Undead',
     health: 100,
     level: 1,
